@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" href="css/normalize.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preload" href="css/styles.css" as="style">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css" as="style">
+    <title>FrontEnd Store</title>
+</head>
+<body>
+    <header class="header">    
+        <a href="index.html"> 
+            <img class="header__logo" src="img/logo.png" alt="Logotipo">
+        </a>
+    </header>
+
+    <nav class="navegacion">
+        <a class="navegacion__enlace " href="index.html"> Tienda </a> 
+        <!-- Se agrega un --activo al final de la clase para hacer referencia que tiene el mismo estilo pero una unica
+         modificación (modificador BEM) será amarillo en vez de blanco -->
+        <a class="navegacion__enlace navegacion__enlace--activo" href="nosotros.html"> Nosotros </a>
+    </nav>
+
+    <main class="contenedor">
+
+        <h1>Sobre nosotros</h1>
+
+        <div class="nosotros">
+            
+                <p class="nosotros__texto">Lorem ipsum dolor sit amet consectetur adipiscing elit. Fames magna maecenas aliquet tristique dapibus purus sagittis in mi praesent, vehicula accumsan tempus velit aliquam rhoncus congue lectus class ad, habitasse duis fusce eu cursus mattis penatibus torquent morbi.
+                     
+                    Nec mollis lacinia pulvinar aenean cum vel mauris porta, sapien ante nibh montes curae porttitor congue ligula, tincidunt tortor hac dapibus sapien dictum, fermentum eros neque gravida turpis blandit. Dignissim dapibus torquent pretium hac scelerisque primis quam per, phasellus litora facilisi turpis neque libero integer, fringilla tellus cubilia platea fermentum non lectus. Posuere litora viverra varius pellentesque semper ullamcorper diam, aliquet cras odio laoreet erat habitasse facilisis, sagittis blandit feugiat mi hac commodo.</p>
+                <img class="nosotros__imagen" src="img/nosotros.jpg" alt="Imagen nosotros">
+        </div>
+    </main>
+    <section class="contenedor comprar">
+        <h2>¿Porqué comprar con nosotros?</h2>
+
+        <div class="bloques">
+
+            <div class="bloque">
+                <img class="bloque__imagen" src="img/icono_1.png" alt="Icono 1">
+                <h3 class="bloque__titulo">El mejor precio</h3>
+                <p>Vehicula accumsan tempus velit aliquam rhoncus congue lectus class ad.</p>
+            </div><!-- Bloque -->
+
+            <div class="bloque">
+                <img class="bloque__imagen" src="img/icono_2.png" alt="Icono 2">
+                <h3 class="bloque__titulo">Para Devs</h3>
+                <p>Vehicula accumsan tempus velit aliquam rhoncus congue lectus class ad.</p>
+            </div><!-- Bloque -->
+
+            <div class="bloque">
+                <img class="bloque__imagen" src="img/icono_3.png" alt="Icono 3">
+                <h3 class="bloque__titulo">Envío gratis</h3>
+                <p>Vehicula accumsan tempus velit aliquam rhoncus congue lectus class ad.</p>
+            </div><!-- Bloque -->
+
+            <div class="bloque">
+                <img class="bloque__imagen" src="img/icono_4.png" alt="Icono 4">
+                <h3 class="bloque__titulo">La mejor calidad</h3>
+                <p>Vehicula accumsan tempus velit aliquam rhoncus congue lectus class ad.</p>
+            </div><!-- Bloque -->
+
+        </div> <!-- bloques -->
+       
+    </section>
+
+    <footer class="footer">
+        <p class="footer__texto">FrontEnd Store - Todos los derechos reservados 2022</p>
+    </footer>
+    
+</body>
+</html>
